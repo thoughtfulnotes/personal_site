@@ -1,5 +1,5 @@
-baseURL: "http://localhost:1313/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "dustinzielke.com" 
+title: Dustin Zielke
 paginate: 20
 theme: PaperMod
 
@@ -9,33 +9,32 @@ enableRobotsTXT: true
 taxonomies:
     tag: tags
 
-menu:
-    main:
-        - name: Books
-          url: books/
-          weight: 1 
-        - name: Papers
-          url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 5
+      # menu:
+      # main:
+      #- name: Books
+      #    url: books/
+      #    weight: 1 
+      #  - name: Papers
+      #   url: papers/
+      #   weight: 2
+      # - name: Courses
+      #   url: courses/
+      #   weight: 3
+      # - name: Data
+      #   url: data/
+      #   weight: 4 
+      # - name: Blog
+      #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+      #   weight: 5
 
 params:
-    description: "I am a Professor of Philology at the Institute of Romance Philology in Regensburg, Germany. My research focuses mostly on Portuguese irregular verbs.
-consequat."
-    author: Moritz-Maria von Igelfeld
+    description: "I am an academic researcher, writer, and instructor working in phenomenological philosophy. Currently, I focus on the phenomenology of selfhood, meaning, time, and the event."
+    author: Dustin Zielke
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
-    hideFooter: false
-    disableThemeToggle: true
+    hideFooter: true
+    disableThemeToggle: false
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
@@ -53,45 +52,47 @@ consequat."
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "Wilkommen! I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses specifically on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dr Dr Dieter Vogelsang, in Munich, Germany, and later a doctoral student (second assistant) of Professor Walter Schoeffler-Henschell at the University of Wiesbaden, Germany."
-          imageUrl: "picture.jpeg"
-          imageWidth: 160
-          imageHeight: 160
-          imageTitle: Moritz-Maria von Igelfeld
+          title: Dustin Zielke
+          subtitle: "I am an academic researcher, writer, and instructor working in phenomenological philosophy. Currently, I focus on the phenomenology of selfhood, meaning, time, and the event."
+          imageUrl: "headshot_red.JPG"
+          imageWidth: 240
+          imageHeight: 240
+          imageTitle: Dustin Zielke
           buttons:
-            - name: Books
-              url: books/
-            - name: Papers
-              url: papers/
-            - name: Courses
-              url: courses/
-            - name: Data
-              url: data/
-            - name: Tags
-              url: tags/
-            - name: Archive
-              url: archive/
-            - name: Blog
-              url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+            # - name: Books
+            #  url: books/
+            # - name: Papers
+            #   url: papers/
+            # - name: Courses
+            #   url: courses/
+            # - name: Data
+            # url: data/
+            # - name: Tags
+            #  url: tags/
+            # - name: Archive
+            #  url: archive/
+            # - name: Blog
+            #  url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
         - name: Email
-          url: mailto:moritz.maria.von.igelfeld@gmail.com
-        - name: CV
-          url: cv.pdf
+          url: mailto:omicron_batting.0x@icloud.com
+        - name: academia
+          url: https://camosun.academia.edu/DustinZielke
+            # - name: CV
+            # url: cv.pdf
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-        - name: Location
-          url: location/
-        - name: Office Hours
-          url: officehours/
-        - name: GitHub
-          url: https://github.com/pmichaillat
-        - name: YouTube
-          url: https://www.youtube.com/@alexandermccallsmithoffici9000
-        - name: Twitter
-          url: https://twitter.com/McCallSmith
+          url: https://scholar.google.com/citations?user=qtFA794AAAAJ&hl=en&citsig=AM0yFClT_-MOmJ7LPik8brLGkUot&ref=thoughtsinways.com
+            # - name: Location
+            # url: location/
+            # - name: Office Hours
+            # url: officehours/
+            # - name: GitHub
+            # url: https://github.com/pmichaillat
+            # - name: YouTube
+            # url: https://www.youtube.com/@alexandermccallsmithoffici9000
+            # - name: Twitter
+            # url: https://twitter.com/McCallSmith
 
     assets:
         disableHLJS: true
@@ -100,7 +101,7 @@ consequat."
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Dustin Zielke"
       icon: favicon.ico
       iconHeight: 18
 
